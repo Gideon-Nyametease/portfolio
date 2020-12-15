@@ -1,43 +1,122 @@
 .App {
   text-align: center;
   background-color: #FCFFFC;
+  background-image: url("./images/my-bg.svg");
+  background-position: center;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link{
+  margin: 10px 200px 0 10px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #0f0f0f;
+}
+.nav-link:hover{
+  color: #0A56EA;
 }
 
 .connect-div{
+  width: 50%;
+  display: inline;
+  /* border: 1px #ea760a solid; */
+  text-align: left;
+  clear: left;
+  float: left;
+
+}
+
+.connect-text{
   font-weight: bold;
   font-size: 16px;
-  color: #75797e;
-  text-align: left;
+  color: #828589;
   letter-spacing: 1px;
+  width: 20%;
+  padding: -10px 5px 30px 0;
+  /* border: 1px #0A56EA solid; */
+  
+}
+
+.connect-imgs{
+  margin: 0 0 30px 15px;
+  width: 65%;
+  /* border: 1px #0aea90 solid; */
+
+}
+
+.connect-links{
+  margin: 0 16px 0 16px ;
+}
+
+.soc-media-icons{
+  margin-bottom: -10px;
+  height: 35px;
+  width: 35px;
+  display: inline;
+  align-items: center;
+}
+.soc-media-icons-linkedin{
+  margin-bottom: -10px;
+  height: 39px;
+  width: 39px;
+  display: inline;
+  align-items: center;
 }
 
 .my-container{
   width: 70%;
   margin: 0 auto;
+  padding-top: 50px;
+}
+
+.my-text{
+  width: 70%;
+}
+
+.my-image{
+  width: 30%;
 }
 
 .top-text{
-  color: #235ac8;
-  font-size: 60px;
+  color: #0A56EA;
+  font-size: 84px;
   text-align: left;
+}
+
+.text-line{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #5B8EF1;
+  width: 60%;
 }
 
 .mini-text{
-  color: #566d9a;
-  font-size: 15px;
+  color: #5B8EF1;
+  font-size: 12px;
   text-align: left;
+  font-weight: 900;
+  letter-spacing: 0.2px;
 }
 
 .sub-text{
-  color: #566d9a;
-  font-size: 30px;
+  color: #5B8EF1;
+  font-size: 24px;
   text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
 }
 
 
 .my-nav{
   height: 80px;
-  width: 100%;
+  width: 76%;
+  margin: 0 auto;
+  text-align: left;
+  clear: left;
 }
 
 .App-logo {
